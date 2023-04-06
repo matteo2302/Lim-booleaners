@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  font-family: sans-serif;
+}
+.container {
+  margin: auto;
+  width: 50%;
+  padding: 12rem 8rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5rem;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.logos {
+  width: 20rem;
+}
+.slogan {
+  font-size: 3rem;
+  color: rgb(6, 224, 6);
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  height: 2rem;
+  background-color: rgb(10, 233, 10);
+}
+.scooter {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+.scooter-name {
+  font-size: 2.6rem;
+}
+
+.yellow {
+  width: 40%;
+  background-color: rgb(255, 181, 70);
+}
+.scooter p {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.849);
+}
+.statocarica {
+  height: 2.6rem;
+  border-radius: 0.4rem;
+}
+.green {
+  width: 70%;
+  background-color: rgb(1, 199, 11);
+}
+.red {
+  width: 20%;
+  background-color: rgba(255, 32, 62, 0.575);
+}
+.iconarrow {
+  width: 1.5rem;
+}
